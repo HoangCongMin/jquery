@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="my_style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+<div id="clickMe">
+hello i love you
+
+</div>
+<div id="picframe">
+  <img src="furry_friend.jpg" alt="">
+</div>
+
+<script>
+  $(document).ready(function () {
+    $("#clickMe").click(function () {
+      $("img").fadeIn (5000);
+      $("#picframe").slideToggle("slow");
+    });
+  });
+</script>
+
+
+
+
+
+</body>
+</html>

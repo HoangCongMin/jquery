@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+		<link type="text/css" href="styles/my_style.css" rel="stylesheet" />
+	</head>
+	<body>
+  <header id="top">
+    <img id="text_top"  src="Monster_Mashup.png" alt="">
+    <p>mot game kinh di</p>
+  </header>
+		<div id="container">
+      <img class="lightning" id="lightning1" src="lightning-01.jpg" alt="">
+      <img class="lightning" id="lightning2" src="lightning-02.jpg" alt="">
+      <img class="lightning" id="lightning3" src="lightning-03.jpg" alt="">
+		</div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script src="scripts/my_scripts.js"></script>
+	</body>
+</html>
